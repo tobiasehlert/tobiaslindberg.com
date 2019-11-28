@@ -1,26 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>TobiasLindberg.com</title>
-    <link>https://tobiaslindberg.com/de/</link>
-    <description>Recent content on TobiasLindberg.com</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 25 Nov 2019 00:15:17 +0100</lastBuildDate>
-    
-	<atom:link href="https://tobiaslindberg.com/de/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Über mich</title>
-      <link>https://tobiaslindberg.com/de/ueber-mich/</link>
-      <pubDate>Mon, 25 Nov 2019 00:15:17 +0100</pubDate>
-      
-      <guid>https://tobiaslindberg.com/de/ueber-mich/</guid>
-      <description>Präsentation (beruflich) Arbeitet als Senior Consultant bei IP-Solutions AB.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>TobiasLindberg.com</title><link>https://tobiaslindberg.com/de/</link><description>Recent content on TobiasLindberg.com</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 25 Nov 2019 00:15:17 +0100</lastBuildDate><atom:link href="https://tobiaslindberg.com/de/index.xml" rel="self" type="application/rss+xml"/><item><title>Über mich</title><link>https://tobiaslindberg.com/de/ueber-mich/</link><pubDate>Mon, 25 Nov 2019 00:15:17 +0100</pubDate><guid>https://tobiaslindberg.com/de/ueber-mich/</guid><description>Präsentation (beruflich) Arbeitet als Senior Consultant bei IP-Solutions AB.
 Ich bin sehr sozial und analytisch. Ich verbinde mein tiefes Wissen und Interesse im technischen Bereich mit einer ausgezeichneten Fähigkeit, als Architekt zu arbeiten, und mit Fehlersuchsystemen. Ich bin ergebnisorientiert und von meinem Ehrgeiz getrieben, hohe Qualität in meinen Aufgaben zu liefern.
 Das Fachwissen liegt hauptsächlich in VoIP/SIP, funktioniert aber auch bei allgemeinem Design, Fehlerbehebung und Virtualisierung.
-Präsentation (persönlich) Vater eines Kleinkindes, der mit Frau und Sohn im westlichen Teil von Stockholm lebt und in seiner Freizeit in Stockholms Studentsångare als anderer Tenor singt.</description>
-    </item>
-    
-  </channel>
-</rss>
+Präsentation (persönlich) Vater eines Kleinkindes, der mit Frau und Sohn im westlichen Teil von Stockholm lebt und in seiner Freizeit in Stockholms Studentsångare als anderer Tenor singt.</description></item></channel></rss>
