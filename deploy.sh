@@ -6,7 +6,7 @@ set -e
 printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
 # Build the project.
-hugo-extended # neededing extended version for my hugo-coder theme
+hugo-extended --minify --gc # neededing extended version for my hugo-coder theme
 
 # Go To Public folder
 cd docs
