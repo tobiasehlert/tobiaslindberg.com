@@ -6,7 +6,7 @@ set -e
 printf "\033[0;32mDeploying updates to GitHub Pages (tobiasehlert.github.io)...\033[0m\n"
 
 # Build the project.
-hugo-extended --minify --gc --baseURL https://tobiasehlert.github.io/ --environment production --destination tobiasehlert.github.io
+hugo-extended --minify --gc --environment  githubpages
 
 # Go To Public folder
 cd tobiasehlert.github.io
@@ -15,7 +15,7 @@ cd tobiasehlert.github.io
 git add .
 
 # Commit changes.
-msg="Generating new version of tobiasehlert.github.io $(date)"
+msg="Generating of tobiasehlert.github.io $(date)"
 if [ -n "$*" ]; then
 	msg="$*"
 fi
