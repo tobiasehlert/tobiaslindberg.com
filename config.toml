@@ -1,0 +1,146 @@
+baseURL = "https://tobiaslindberg.com/"
+title = "TobiasLindberg.com"
+
+theme = "hugo-coder"
+
+#currentlanguage = "en"
+#languagecode = "en"
+defaultcontentlanguage = "en"
+defaultContentLanguageInSubdir = true
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+#disqusShortname = "tobiaslindberg"
+
+[languages]
+    [languages.en]
+        languageName = "English"
+        description = "Tobias Lindberg's website"
+        info = "Senior Consultant | Developer | Tesla enthusiast | Creator of TibiaData"
+#        [[languages.en.menu.main]]
+#            name = "Blog"
+#            weight = 1
+#            url  = "/en/posts/"
+        [[languages.en.menu.main]]
+            name = "About"
+            weight = 2
+            url = "/en/about/"
+
+    [languages.se]
+        languageName = "Svenska"
+        description = "Tobias Lindberg's hemsida"
+        info = "Seniorkonsult | Utvecklare | Tesla entusiast | Skapare av TibiaData"
+#        [[languages.se.menu.main]]
+#            name = "Blog"
+#            weight = 1
+#            url  = "/se/posts/"
+        [[languages.se.menu.main]]
+            name = "Om mig"
+            weight = 2
+            url = "/se/om-mig/"
+
+    [languages.de]
+        languageName = "Deutsch"
+        description = "Tobias Lindberg's webseite"
+        info = "Entwickler | Tesla-Enthusiast | Schöpfer von TibiaData"
+#        [[languages.de.menu.main]]
+#            name = "Blog"
+#            weight = 1
+#            url  = "/se/posts/"
+        [[languages.de.menu.main]]
+            name = "Über mich"
+            weight = 2
+            url = "/de/ueber-mich/"
+
+
+[params]
+    author = "Tobias Lindberg"
+    info = ""
+    
+    description = "Tobias Lindberg's website"
+    keywords = "tobias lindberg,tobias ehlert,ehlert,consultant,senior consultant,developer,personal"
+    avatarurl = "images/avatar.jpg"
+
+    favicon_32 = "/img/favicon-32x32.png"
+    favicon_16 = "/img/favicon-16x16.png"
+
+    footercontent = "Eat, sleep, code, repeat.."
+    dateformat = "2006-01-02 15:04"
+
+    colorscheme = "auto"
+
+    hidecredits = true
+    hidecopyright = false
+
+    rtl = false
+
+    math = true
+    custom_css = ["css/custom.css"]
+
+[permalinks]
+  posts = "/:year/:month/:title/"
+
+
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
+
+
+# Social links
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin fa-4x"
+    weight = 1
+    url = "https://www.linkedin.com/in/ehlerttobias/"
+    rel = "noreferrer"
+    target = "_blank"
+[[params.social]]
+    name = "Instagram"
+    icon = "fab fa-instagram fa-2x"
+    weight = 2
+    url = "https://instagram.com/ehlerttobias/"
+    rel = "noreferrer"
+    target = "_blank"
+[[params.social]]
+    name = "Facebook"
+    icon = "fab fa-facebook fa-2x"
+    weight = 3
+    url = "https://facebook.com/tysken"
+    rel = "noreferrer"
+    target = "_blank"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 4
+    url = "https://twitter.com/EhlertTobias/"
+    rel = "noreferrer"
+    target = "_blank"
+[[params.social]]
+    name = "GitHub"
+    icon = "fab fa-github fa-2x"
+    weight = 5
+    url = "https://github.com/tobiasehlert/"
+    rel = "noreferrer"
+    target = "_blank"
+[[params.social]]
+    name = "Tesla"
+    icon = "fa fa-car fa-2x"
+    weight = 6
+    url = "https://ts.la/tobias85122/"
+    rel = "noreferrer"
+    target = "_blank"
+[[params.social]]
+    name = "DigitalOcean"
+    icon = "fab fa-digital-ocean fa-2x"
+    weight = 7
+    url = "https://m.do.co/c/452a006a298d"
+    rel = "noreferrer"
+    target = "_blank"
+
+
