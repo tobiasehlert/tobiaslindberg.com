@@ -58,21 +58,19 @@ pygmentscodefencesguesssyntax = true
 
 [params]
     author = "Tobias Lindberg"
-    info = ""
     
-    description = "Tobias Lindberg's website"
     keywords = "tobias lindberg,tobias ehlert,ehlert,consultant,senior consultant,developer,personal"
     avatarurl = "images/avatar.jpg"
 
     favicon_32 = "/images/favicon-32x32.png"
     favicon_16 = "/images/favicon-16x16.png"
 
-    footercontent = "Eat, sleep, code, repeat.."
+    footercontent = ""
     dateformat = "2006-01-02 15:04"
 
     colorscheme = "auto"
 
-    hidecredits = true
+    hidecredits = false
     hidecopyright = false
 
     rtl = false

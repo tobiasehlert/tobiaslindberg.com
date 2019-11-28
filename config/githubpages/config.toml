@@ -4,5 +4,6 @@ title = "TobiasEhlert.github.io"
 publishdir = "tobiasehlert.github.io"
 
 [params]
-    info = "TobiasLindberg.com as GitHub Pages version"
-
+    footercontent = "This page is hosted on GitHub Pages - Full page at https://tobiaslindberg.com"
+    hidecredits = false
+    hidecopyright = false
