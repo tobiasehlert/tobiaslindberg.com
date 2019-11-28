@@ -3,10 +3,10 @@
 # If a command fails then the deploy stops
 set -e
 
-printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
+printf "\033[0;32mDeploying updates to GitHub Pages (tobiaslindberg.github.io)...\033[0m\n"
 
 # Build the project.
-hugo-extended --minify --gc # neededing extended version for my hugo-coder theme
+hugo-extended --minify --gc --baseURL=https://tobiaslindberg.github.io/
 
 # Go To Public folder
 cd docs
@@ -15,7 +15,7 @@ cd docs
 git add .
 
 # Commit changes.
-msg="Automatic rebuilding of site $(date)"
+msg="Rebuilding of tobiaslindberg.github.io $(date)"
 if [ -n "$*" ]; then
 	msg="$*"
 fi
