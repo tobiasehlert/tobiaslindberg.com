@@ -3,8 +3,6 @@ title = "TobiasLindberg.com"
 
 theme = "hugo-coder"
 
-#currentlanguage = "en"
-#languagecode = "en"
 defaultcontentlanguage = "en"
 defaultContentLanguageInSubdir = true
 
@@ -16,8 +14,6 @@ canonifyurls = true
 pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
-
-#disqusShortname = "tobiaslindberg"
 
 [languages]
     [languages.en]
