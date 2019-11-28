@@ -15,7 +15,7 @@ cd tobiasehlert.github.io
 git add .
 
 # Commit changes.
-msg="Generating of tobiasehlert.github.io $(date)"
+msg="Generated tobiasehlert.github.io at $(date)"
 if [ -n "$*" ]; then
 	msg="$*"
 fi
