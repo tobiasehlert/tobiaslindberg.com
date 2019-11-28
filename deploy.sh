@@ -3,19 +3,19 @@
 # If a command fails then the deploy stops
 set -e
 
-printf "\033[0;32mDeploying updates to GitHub Pages (tobiaslindberg.github.io)...\033[0m\n"
+printf "\033[0;32mDeploying updates to GitHub Pages (tobiasehlert.github.io)...\033[0m\n"
 
 # Build the project.
-hugo-extended --minify --gc --baseURL=https://tobiaslindberg.github.io/
+hugo-extended --minify --gc --baseURL=https://tobiasehlert.github.io/
 
 # Go To Public folder
-cd docs
+cd tobiasehlert.github.io
 
 # Add changes to git.
 git add .
 
 # Commit changes.
-msg="Rebuilding of tobiaslindberg.github.io $(date)"
+msg="Generating new version of tobiasehlert.github.io $(date)"
 if [ -n "$*" ]; then
 	msg="$*"
 fi

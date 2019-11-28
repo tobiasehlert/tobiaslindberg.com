@@ -8,7 +8,7 @@ theme = "hugo-coder"
 defaultcontentlanguage = "en"
 defaultContentLanguageInSubdir = true
 
-publishdir = "docs"
+publishdir = "public"
 
 paginate = 20
 canonifyurls = true
