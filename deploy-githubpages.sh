@@ -32,7 +32,7 @@ cd public-$GITHUB_PAGE
 git add .
 
 # Commit changes.
-msg="$GITHUB_PAGE | commit $GIT_COMMIT_SHA_SHORT | generated at $(date)"
+msg="$GITHUB_PAGE | commit $GIT_COMMIT_SHA_SHORT - $(date '+%Y-%m-%d %H:%M:%S')"
 if [ -n "$*" ]; then
 	msg="$*"
 fi
