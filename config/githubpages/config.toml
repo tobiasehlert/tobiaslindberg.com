@@ -4,6 +4,14 @@ title = "TobiasEhlert.github.io"
 publishdir = "tobiasehlert.github.io"
 
 [params]
-    footercontent = "This page is hosted on GitHub Pages - Full page at https://tobiaslindberg.com"
     hidecredits = false
     hidecopyright = false
+
+[languages]
+    [languages.en]
+        footercontent = "This page is hosted on GitHub Pages - Full version at https://tobiaslindberg.com"
+    [languages.se]
+        footercontent = "Denna sida tillhandahålls på GitHub Pages - Full version på https://tobiaslindberg.com"
+    [languages.de]
+        footercontent = "Diese Seite wird GitHub Pages gehostet - Volle Version auf https://tobiaslindberg.com"
+
