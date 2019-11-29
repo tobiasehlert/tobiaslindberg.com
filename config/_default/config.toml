@@ -6,6 +6,7 @@ theme = "hugo-coder"
 defaultcontentlanguage = "en"
 defaultContentLanguageInSubdir = true
 
+contentDir = "content"
 publishdir = "public"
 
 paginate = 20
@@ -14,6 +15,8 @@ canonifyurls = true
 pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
+
+enableGitInfo = true
 
 [languages]
     [languages.en]
@@ -77,6 +80,10 @@ pygmentscodefencesguesssyntax = true
 
     math = true
     custom_css = ["css/custom.css"]
+
+    # Git Commit in Footer, uncomment the line below to enable it.
+    commit = "https://github.com/tobiasehlert/tobiaslindberg.com/tree/"
+
 
 [permalinks]
   posts = "/:year/:month/:title/"

@@ -1,6 +1,6 @@
 [submodule "themes/hugo-coder"]
 	path = themes/hugo-coder
 	url = git@github.com:tobiasehlert/hugo-coder.git
-[submodule "tobiasehlert.github.io"]
-	path = tobiasehlert.github.io
+[submodule "public-tobiasehlert.github.io"]
+	path = public-tobiasehlert.github.io
 	url = git@github.com:tobiasehlert/tobiasehlert.github.io.git

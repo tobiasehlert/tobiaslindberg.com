@@ -1,7 +1,8 @@
 baseURL = "https://tobiasehlert.github.io/"
 title = "TobiasEhlert.github.io"
 
-publishdir = "tobiasehlert.github.io"
+contentDir = "content-tobiasehlert.github.io"
+publishdir = "public-tobiasehlert.github.io"
 
 [params]
     hidecredits = false

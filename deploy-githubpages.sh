@@ -5,11 +5,15 @@ set -e
 
 printf "\033[0;32mDeploying updates to GitHub Pages (tobiasehlert.github.io)...\033[0m\n"
 
-# Build the project.
+# Set required git environment flags.
+GIT_COMMIT_SHA=`git rev-parse --verify HEAD`
+GIT_COMMIT_SHA_SHORT=`git rev-parse --short HEAD`
+
+# Build the project,
 hugo-extended --minify --gc --environment  githubpages
 
 # Go To Public folder
-cd tobiasehlert.github.io
+cd public-tobiasehlert.github.io
 
 # Add changes to git.
 git add .
