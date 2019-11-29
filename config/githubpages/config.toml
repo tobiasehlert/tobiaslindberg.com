@@ -4,15 +4,36 @@ title = "TobiasEhlert.github.io"
 contentDir = "content-tobiasehlert.github.io"
 publishdir = "public-tobiasehlert.github.io"
 
-[params]
-    hidecredits = false
-    hidecopyright = false
+[taxonomies]
 
 [languages]
     [languages.en]
         footercontent = "This page is hosted on GitHub Pages - Full version at https://tobiaslindberg.com"
+        [[languages.en.menu.main]]
+            name = "https://tobiaslindberg.com"
+            weight = 1
+            url = "https://tobiaslindberg.com/en/"
+        [[languages.en.menu.main]]
+            name = "About"
+            weight = 2
+            url = "/en/about/"
     [languages.se]
         footercontent = "Denna sida tillhandahålls på GitHub Pages - Full version på https://tobiaslindberg.com"
+        [[languages.se.menu.main]]
+            name = "https://tobiaslindberg.com"
+            weight = 1
+            url = "https://tobiaslindberg.com/se/"
+        [[languages.se.menu.main]]
+            name = "Om mig"
+            weight = 2
+            url = "/se/om-mig/"
     [languages.de]
         footercontent = "Diese Seite wird GitHub Pages gehostet - Volle Version auf https://tobiaslindberg.com"
-
+        [[languages.de.menu.main]]
+            name = "https://tobiaslindberg.com"
+            weight = 1
+            url = "https://tobiaslindberg.com/de/"
+        [[languages.de.menu.main]]
+            name = "Über mich"
+            weight = 2
+            url = "/de/ueber-mich/"

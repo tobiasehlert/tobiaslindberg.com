@@ -1,0 +1,14 @@
+baseURL = "https://tobiaslindberg.com/"
+title = "TobiasLindberg.com"
+
+buildDrafts = false
+buildFuture = false
+
+[languages]
+    [languages.en]
+        footercontent = "<!-- Prod -->"
+    [languages.se]
+        footercontent = "<!-- Prod -->"
+    [languages.de]
+        footercontent = "<!-- Prod -->"
+
