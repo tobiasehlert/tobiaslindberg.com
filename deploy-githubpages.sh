@@ -6,8 +6,8 @@ set -e
 printf "\033[0;32mDeploying updates to GitHub Pages (tobiasehlert.github.io)...\033[0m\n"
 
 # Set required git environment flags.
-GIT_COMMIT_SHA=`git rev-parse --verify HEAD`
-GIT_COMMIT_SHA_SHORT=`git rev-parse --short HEAD`
+export GIT_COMMIT_SHA=`git rev-parse --verify HEAD`
+export GIT_COMMIT_SHA_SHORT=`git rev-parse --short HEAD`
 
 # Build the project,
 hugo-extended --minify --gc --environment  githubpages
