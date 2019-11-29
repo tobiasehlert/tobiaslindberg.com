@@ -44,8 +44,9 @@ git push origin master
 # Go to one folder up
 cd ..
 
-# Sync submodules after deploying new version
+# Sync and updatesubmodules after deploying new version
 git submodule update
+git submodule sync
 
 # Printing that we are finished with deployment
 printf "\033[0;32mDeployment completed!\033[0m\n"
