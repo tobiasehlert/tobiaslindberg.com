@@ -47,18 +47,12 @@ git push origin master
 # Go to one folder up
 cd ..
 
-
-# Sync and updatesubmodules after deploying new version
-#
-git pull
-# Ensure the submodule points to the right place
-git submodule sync
-# Update the submodule
-git submodule update
-# Ensure subs are on master branch
-git submodule foreach git checkout master
-# Pull the latest master
-git submodule foreach git pull origin master
+# Adding public-$GITHUB_PAGE to outer repo
+git add public-$GITHUB_PAGE
+# Adding commit message
+git commit -m "$msg"
+# Push to origin master
+git push origin master
 
 
 # Printing that we are finished with deployment
