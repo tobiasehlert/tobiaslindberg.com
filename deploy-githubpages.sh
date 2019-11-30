@@ -44,12 +44,22 @@ git commit -m "$msg"
 # Push source and build repos.
 git push origin master
 
-## Go to one folder up
-#cd ..
+# Go to one folder up
+cd ..
+
+
+# Sync and updatesubmodules after deploying new version
 #
-## Sync and updatesubmodules after deploying new version
-#git submodule update
-#git submodule sync
+git pull
+# Ensure the submodule points to the right place
+git submodule sync
+# Update the submodule
+git submodule update
+# Ensure subs are on master branch
+git submodule foreach git checkout master
+# Pull the latest master
+git submodule foreach git pull origin master
+
 
 # Printing that we are finished with deployment
 printf "\033[0;32mDeployment completed!\033[0m\n"
