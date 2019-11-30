@@ -23,7 +23,7 @@ printf "\033[0;32mDeploying updates to GitHub Pages ($GITHUB_PAGE)...\033[0m\n"
 sed -i "s/> Commit SHA: .*/> Commit SHA: \*\*$GIT_COMMIT_SHA\*\* \[\[$GIT_COMMIT_SHA_SHORT\]\(https:\/\/github.com\/tobiasehlert\/tobiaslindberg.com\/commit\/$GIT_COMMIT_SHA\)\]/g" public-$GITHUB_PAGE/README.md
 
 # Build the project,
-hugo-extended --minify --gc --environment $HUGO_ENVIRONMENT
+hugo-extended --minify --gc --environment $HUGO_ENVIRONMENT --debug
 
 # Go To Public folder
 cd public-$GITHUB_PAGE
