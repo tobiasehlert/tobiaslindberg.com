@@ -28,6 +28,9 @@ hugo-extended --minify --gc --environment $HUGO_ENVIRONMENT
 # Go To Public folder
 cd public-$GITHUB_PAGE
 
+# Copy of english 404 file to root folder
+cp en/404.html .
+
 # Add changes to git.
 git add .
 
