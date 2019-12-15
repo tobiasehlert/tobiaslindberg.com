@@ -77,6 +77,7 @@ enableGitInfo = true
     hidecopyright = false
 
     rtl = false
+    since = 2019
 
     math = true
     custom_css = ["css/custom.css"]
