@@ -31,7 +31,7 @@ jobs:
       - name: Build with Hugo
         run: hugo --minify --gc --environment githubpages --debug
 
-      - name: Go to public-${{GIT_HUB_PAGE}}
+      - name: Go to public-$GIT_HUB_PAGE
         run: cd public-$GIT_HUB_PAGE
         
       - name: Copy of english 404 file to root folder
@@ -47,7 +47,7 @@ jobs:
         run: git status
 
       - name: Generating commit changes.
-        run: git commit -m "${{GIT_HUB_PAGE}} | commit ${{GIT_SHA_SHORT}} | generated $(date '+%Y-%m-%d %H:%M:%S')"
+        run: git commit -m "$GIT_HUB_PAGE | commit $GIT_SHA_SHORT | generated $(date '+%Y-%m-%d %H:%M:%S')"
 
       - name: Show GIT status
         run: git status
