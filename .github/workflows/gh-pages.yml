@@ -15,12 +15,12 @@ jobs:
       - name: Running some export vars
         run: echo 'lets get started..'
         env:
-          GITHUB_PAGE: tobiasehlert.github.io
-          GIT_COMMIT_SHA: $(`git rev-parse --verify HEAD`)
-          GIT_COMMIT_SHA_SHORT: $(`git rev-parse --short HEAD`)
+          GIT_GITHUB_PAGE: tobiasehlert.github.io
+          GITHUB_SHA: $(`git rev-parse --verify HEAD`)
+          GIT_SHA_SHORT: $(`git rev-parse --short HEAD`)
 
 #      - name: Run sed command to update README
-#        run: sed -i "s/> Commit SHA: .*/> Commit SHA: \*\*${{GIT_COMMIT_SHA}}\*\* \[\[${{GIT_COMMIT_SHA_SHORT}}\]\(https:\/\/github.com\/tobiasehlert\/tobiaslindberg.com\/commit\/${{GIT_COMMIT_SHA}}\)\]/g" public-${{GITHUB_PAGE}}/README.md
+#        run: sed -i "s/> Commit SHA: .*/> Commit SHA: \*\*${{GITHUB_SHA}}\*\* \[\[${{GIT_SHA_SHORT}}\]\(https:\/\/github.com\/tobiasehlert\/tobiaslindberg.com\/commit\/${{GITHUB_SHA}}\)\]/g" public-${{GIT_GITHUB_PAGE}}/README.md
 
       - name: Setup latest Hugo
         uses: peaceiris/actions-hugo@v2
@@ -31,8 +31,8 @@ jobs:
       - name: Build with Hugo
         run: hugo --minify --gc --environment githubpages --debug
 
-      - name: Go to public-${{GITHUB_PAGE}}
-        run: cd public-$GITHUB_PAGE
+      - name: Go to public-${{GIT_GITHUB_PAGE}}
+        run: cd public-$GIT_GITHUB_PAGE
         
       - name: Copy of english 404 file to root folder
         run: cp en/404.html .
@@ -47,7 +47,7 @@ jobs:
         run: git status
 
       - name: Generating commit changes.
-        run: git commit -m "${{GITHUB_PAGE}} | commit ${{GIT_COMMIT_SHA_SHORT}} | generated $(date '+%Y-%m-%d %H:%M:%S')"
+        run: git commit -m "${{GIT_GITHUB_PAGE}} | commit ${{GIT_SHA_SHORT}} | generated $(date '+%Y-%m-%d %H:%M:%S')"
 
       - name: Show GIT status
         run: git status
