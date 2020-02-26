@@ -19,7 +19,7 @@ jobs:
           extended: true
 
       - name: Build with Hugo
-        run: hugo --minify --gc --environment githubpages --debug½
+        run: hugo --minify --gc --environment githubpages --debug
 
       - name: Deploy of content
         uses: peaceiris/actions-gh-pages@v3
