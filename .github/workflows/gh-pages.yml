@@ -11,6 +11,13 @@ jobs:
     steps:
       - name: Checkout action
         uses: actions/checkout@v1
+        with:
+          submodules: false
+
+      - name: Checkout submodules
+        uses: textbook/git-checkout-submodule-action@master
+        with:
+          remote: true
 
       - name: Setup latest Hugo
         uses: peaceiris/actions-hugo@v2
@@ -19,13 +26,13 @@ jobs:
           extended: true
 
       - name: Build with Hugo
-        run: hugo --minify --gc --environment githubpages
+        run: hugo --minify --gc --environment githubpages --debug½
 
       - name: Deploy of content
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          publish_dir: ./public-tobiasehlert.github.io
+          publish_dir: /public-tobiasehlert.github.io
           publish_branch: gh-actions-testbranch
           disable_nojekyll: true
           allow_empty_commit: true
