@@ -35,7 +35,7 @@ enableGitInfo = true
     [languages.se]
         languageName = "Svenska"
         description = "Tobias Lindberg's hemsida"
-        info = "Seniorkonsult | Utvecklare | Father | Tesla entusiast | Skapare av TibiaData"
+        info = "Seniorkonsult | Utvecklare | Far | Tesla entusiast | Skapare av TibiaData"
         [[languages.se.menu.main]]
             name = "Blog"
             weight = 1
@@ -48,7 +48,7 @@ enableGitInfo = true
     [languages.de]
         languageName = "Deutsch"
         description = "Tobias Lindberg's webseite"
-        info = "Senior Consultant | Entwickler | Father | Tesla-Enthusiast | Schöpfer von TibiaData"
+        info = "Senior Consultant | Entwickler | Vater | Tesla-Enthusiast | Schöpfer von TibiaData"
         [[languages.de.menu.main]]
             name = "Blog"
             weight = 1
