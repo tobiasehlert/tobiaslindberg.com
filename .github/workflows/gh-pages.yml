@@ -18,8 +18,8 @@ jobs:
           GIT_COMMIT_SHA: $(`git rev-parse --verify HEAD`)
           GIT_COMMIT_SHA_SHORT: $(`git rev-parse --short HEAD`)
 
-      - name: Run sed command to update README
-        run: sed -i "s/> Commit SHA: .*/> Commit SHA: \*\*${{GIT_COMMIT_SHA}}\*\* \[\[${{GIT_COMMIT_SHA_SHORT}}\]\(https:\/\/github.com\/tobiasehlert\/tobiaslindberg.com\/commit\/${{GIT_COMMIT_SHA}}\)\]/g" public-${{GITHUB_PAGE}}/README.md
+#      - name: Run sed command to update README
+#        run: sed -i "s/> Commit SHA: .*/> Commit SHA: \*\*${{GIT_COMMIT_SHA}}\*\* \[\[${{GIT_COMMIT_SHA_SHORT}}\]\(https:\/\/github.com\/tobiasehlert\/tobiaslindberg.com\/commit\/${{GIT_COMMIT_SHA}}\)\]/g" public-${{GITHUB_PAGE}}/README.md
 
       - name: Setup latest Hugo
         uses: peaceiris/actions-hugo@v2
