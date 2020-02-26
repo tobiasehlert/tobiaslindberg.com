@@ -11,13 +11,6 @@ jobs:
     steps:
       - name: Checkout action
         uses: actions/checkout@v1
-        with:
-          submodules: false
-
-      - name: Checkout submodules
-        uses: textbook/git-checkout-submodule-action@master
-        with:
-          remote: true
 
       - name: Setup latest Hugo
         uses: peaceiris/actions-hugo@v2
