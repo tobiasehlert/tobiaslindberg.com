@@ -11,6 +11,9 @@ jobs:
     steps:
       - name: Checkout action
         uses: actions/checkout@v1
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
+          submodules: true
 
       - name: Setup latest Hugo
         uses: peaceiris/actions-hugo@v2
