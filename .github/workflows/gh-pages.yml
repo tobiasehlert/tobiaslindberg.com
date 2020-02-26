@@ -9,21 +9,27 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1  # v2 does not have submodules option now
+      - name: Checkout action
+        uses: actions/checkout@v1  # v2 does not have submodules option now
           with:
             submodules: true
 
-      - name: Setup Hugo
+      - name: Setup latest Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
           extended: true
 
-      - name: Build
+      - name: Build with Hugo
         run: hugo-extended --minify --gc --environment githubpages
 
-      - name: Deploy
+      - name: Deploy of content
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./docs
+          publish_branch: master
+          disable_nojekyll: true
+          allow_empty_commit: true
+          user_name: tobiasehlert
+          user_email: tobias.ehlert@gmail.com
