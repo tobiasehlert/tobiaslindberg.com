@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout action
-        uses: actions/checkout@v1  # v2 does not have submodules option now
+        uses: actions/checkout@v1
           with:
             submodules: true
 
