@@ -13,6 +13,7 @@ jobs:
         run: git clone --recurse-submodules --remote-submodules
 
       - name: Running some export vars
+        run: echo 'lets get started..'
         env:
           GITHUB_PAGE: tobiasehlert.github.io
           GIT_COMMIT_SHA: $(`git rev-parse --verify HEAD`)
