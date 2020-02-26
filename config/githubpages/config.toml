@@ -9,7 +9,7 @@ publishdir = "public-tobiasehlert.github.io"
 [languages]
     [languages.en]
         footercontent = "This page is hosted on GitHub Pages - Full version of homepage at <a href='https://tobiaslindberg.com/en/' rel='noreferrer' target='_blank'>tobiaslindberg.com</a>"
-        [[languages.en.menu.main]]
+#        [[languages.en.menu.main]]
 #            name = "https://tobiaslindberg.com"
 #            weight = 1
 #            url = "https://tobiaslindberg.com/en/"
@@ -32,7 +32,7 @@ publishdir = "public-tobiasehlert.github.io"
 #        [[languages.de.menu.main]]
 #            name = "https://tobiaslindberg.com"
 #            weight = 1
-            url = "https://tobiaslindberg.com/de/"
+#            url = "https://tobiaslindberg.com/de/"
         [[languages.de.menu.main]]
             name = "Über mich"
             weight = 2
