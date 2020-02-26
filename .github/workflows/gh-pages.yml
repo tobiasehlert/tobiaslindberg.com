@@ -31,8 +31,8 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          publish_dir: ./docs
-          publish_branch: master
+          publish_dir: ./public-tobiasehlert.github.io
+          publish_branch: gh-actions-testbranch
           disable_nojekyll: true
           allow_empty_commit: true
           user_name: tobiasehlert
