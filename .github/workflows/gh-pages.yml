@@ -13,7 +13,6 @@ jobs:
       - name: Checkout action
         shell: bash
         run: |
-          # If your submodules are configured to use SSH instead of HTTPS please uncomment the following line
           git config --global url."https://github.com/".insteadOf "git@github.com:"
           auth_header="$(git config --local --get http.https://github.com/.extraheader)"
           git submodule sync --recursive
@@ -26,7 +25,7 @@ jobs:
           extended: true
 
       - name: Build with Hugo
-        run: hugo-extended --minify --gc --environment githubpages
+        run: hugo --minify --gc --environment githubpages
 
       - name: Deploy of content
         uses: peaceiris/actions-gh-pages@v3
