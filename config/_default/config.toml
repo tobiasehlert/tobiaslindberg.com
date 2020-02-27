@@ -10,7 +10,6 @@ contentDir = "content"
 publishdir = "public"
 
 paginate = 20
-canonifyurls = false
 
 pygmentsstyle = "bw"
 pygmentscodefences = true

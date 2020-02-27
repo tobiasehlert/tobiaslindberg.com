@@ -11,4 +11,3 @@ buildFuture = false
         footercontent = "<!-- Prod -->"
     [languages.de]
         footercontent = "<!-- Prod -->"
-
