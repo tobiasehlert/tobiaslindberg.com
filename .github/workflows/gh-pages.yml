@@ -35,11 +35,11 @@ jobs:
         run: |
           hugo --minify --gc --environment githubpages --debug
 
-      - name: Retrieving files that should be preserved from tobiasehlert.github.io
+      - name: Some file adjustments after generation of all files
         run: |
-          cp /public-tobiasehlert.github.io/en/404.html /public-tobiasehlert.github.io/404.html
-          wget https://raw.githubusercontent.com/tobiasehlert/tobiasehlert.github.io/master/LICENSE.md -O /public-tobiasehlert.github.io/LICENSE.md
-          wget https://raw.githubusercontent.com/tobiasehlert/tobiasehlert.github.io/master/README.md -O /public-tobiasehlert.github.io/README.md
+          cp ./public-tobiasehlert.github.io/en/404.html ./public-tobiasehlert.github.io/404.html
+          wget https://raw.githubusercontent.com/tobiasehlert/tobiasehlert.github.io/master/LICENSE.md -O ./public-tobiasehlert.github.io/LICENSE.md
+          wget https://raw.githubusercontent.com/tobiasehlert/tobiasehlert.github.io/master/README.md -O ./public-tobiasehlert.github.io/README.md
 
       - name: Changing git settings - reverting of git url and submodule sync
         shell: bash
