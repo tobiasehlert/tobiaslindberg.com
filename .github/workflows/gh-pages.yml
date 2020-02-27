@@ -33,6 +33,14 @@ jobs:
       - name: Build with Hugo
         run: hugo --minify --gc --environment githubpages --debug
 
+      - name: Changing submodules URL again
+        shell: bash
+        run: |
+          # If your submodules are configured to use SSH instead of HTTPS please uncomment the following line
+          git config --global url."git@github.com:".insteadOf "https://github.com/"
+          auth_header="$(git config --local --get http.https://github.com/.extraheader)"
+          git submodule sync --recursive
+
       - name: Deploy of content
         uses: peaceiris/actions-gh-pages@v3
         with:
