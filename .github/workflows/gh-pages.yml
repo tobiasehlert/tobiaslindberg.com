@@ -28,8 +28,8 @@ jobs:
 
       - name: Build with Hugo - using --minify --gc --environment githubpages --debug
         run: |
-          GIT_COMMIT_SHA="$(git rev-parse --verify HEAD)"
-          GIT_COMMIT_SHA_SHORT="$(git rev-parse --short HEAD)"
+          export GIT_COMMIT_SHA="$(git rev-parse --verify HEAD)"
+          export GIT_COMMIT_SHA_SHORT="$(git rev-parse --short HEAD)"
           hugo --minify --gc --environment githubpages --debug
 
       - name: Changing git settings - reverting of git url and submodule sync
@@ -43,7 +43,7 @@ jobs:
         with:
           deploy_key: ${{ secrets.DEPLOY_KEY_TOBIASEHLERTGITHUBIO }}
           external_repository: tobiasehlert/tobiasehlert.github.io
-          publish_dir: /public
+          publish_dir: /public-tobiasehlert.github.io
           publish_branch: master
           disable_nojekyll: true
           allow_empty_commit: true
