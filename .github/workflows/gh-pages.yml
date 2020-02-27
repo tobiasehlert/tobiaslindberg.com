@@ -46,7 +46,7 @@ jobs:
         with:
           deploy_key: ${{ secrets.DEPLOY_KEY_TOBIASEHLERTGITHUBIO }}
           external_repository: tobiasehlert/tobiasehlert.github.io
-          publish_dir: /public-tobiasehlert.github.io
+          publish_dir: /public
           publish_branch: master
           disable_nojekyll: true
           allow_empty_commit: true
