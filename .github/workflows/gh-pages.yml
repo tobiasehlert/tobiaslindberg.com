@@ -9,18 +9,11 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Git clone repo
-        run: git clone --recurse-submodules --remote-submodules
-
-      - name: Running some export vars
-        run: echo 'lets get started..'
-        env:
-          GIT_HUB_PAGE: tobiasehlert.github.io
-          GITHUB_SHA: $(`git rev-parse --verify HEAD`)
-          GIT_SHA_SHORT: $(`git rev-parse --short HEAD`)
-
-#      - name: Run sed command to update README
-#        run: sed -i "s/> Commit SHA: .*/> Commit SHA: \*\*${{GITHUB_SHA}}\*\* \[\[${{GIT_SHA_SHORT}}\]\(https:\/\/github.com\/tobiasehlert\/tobiaslindberg.com\/commit\/${{GITHUB_SHA}}\)\]/g" public-${{GIT_HUB_PAGE}}/README.md
+      - name: Checkout action
+        uses: actions/checkout@v1
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
+          submodules: true
 
       - name: Setup latest Hugo
         uses: peaceiris/actions-hugo@v2
@@ -31,34 +24,14 @@ jobs:
       - name: Build with Hugo
         run: hugo --minify --gc --environment githubpages --debug
 
-      - name: Go to public-$GIT_HUB_PAGE
-        run: cd public-$GIT_HUB_PAGE
-        
-      - name: Copy of english 404 file to root folder
-        run: cp en/404.html .
-
-      - name: Show GIT status
-        run: git status
-
-      - name: Add changes to git
-        run: git add .
-
-      - name: Show GIT status
-        run: git status
-
-      - name: Generating commit changes.
-        run: git commit -m "$GIT_HUB_PAGE | commit $GIT_SHA_SHORT | generated $(date '+%Y-%m-%d %H:%M:%S')"
-
-      - name: Show GIT status
-        run: git status
-
-#      - name: Deploy of content
-#        uses: peaceiris/actions-gh-pages@v3
-#        with:
-#          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-#          publish_dir: /public-tobiasehlert.github.io
-#          publish_branch: gh-actions-testbranch
-#          disable_nojekyll: true
-#          allow_empty_commit: true
-#          user_name: tobiasehlert
-#          user_email: tobias.ehlert@gmail.com
+      - name: Deploy of content
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          external_repository: tobiasehlert/tobiasehlert.github.io
+          publish_dir: /public-tobiasehlert.github.io
+          publish_branch: gh-actions-testbranch
+          disable_nojekyll: true
+          allow_empty_commit: true
+          user_name: tobiasehlert
+          user_email: tobias.ehlert@gmail.com
