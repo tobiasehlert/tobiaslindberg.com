@@ -8,7 +8,8 @@ publishdir = "public-tobiasehlert.github.io"
 
 [languages]
     [languages.en]
-        footercontent = "This page is hosted on GitHub Pages - Full version of homepage at <a href='https://tobiaslindberg.com/en/' rel='noreferrer' target='_blank'>tobiaslindberg.com</a>"
+#        footercontent = "This page is hosted on GitHub Pages - Full version of homepage at <a href='https://tobiaslindberg.com/en/' rel='noreferrer' target='_blank'>tobiaslindberg.com</a>"
+        footercontent = "This page is hosted on GitHub Pages"
 #        [[languages.en.menu.main]]
 #            name = "https://tobiaslindberg.com"
 #            weight = 1
@@ -18,7 +19,8 @@ publishdir = "public-tobiasehlert.github.io"
             weight = 2
             url = "/en/about/"
     [languages.se]
-        footercontent = "Denna sida tillhandahålls på GitHub Pages - Full version av hemsidan på <a href='https://tobiaslindberg.com/se/' rel='noreferrer' target='_blank'>tobiaslindberg.com</a>"
+#        footercontent = "Denna sida tillhandahålls på GitHub Pages - Full version av hemsidan på <a href='https://tobiaslindberg.com/se/' rel='noreferrer' target='_blank'>tobiaslindberg.com</a>"
+        footercontent = "Denna sida tillhandahålls på GitHub Pages"
 #        [[languages.se.menu.main]]
 #            name = "https://tobiaslindberg.com"
 #            weight = 1
@@ -28,7 +30,8 @@ publishdir = "public-tobiasehlert.github.io"
             weight = 2
             url = "/se/om-mig/"
     [languages.de]
-        footercontent = "Diese Seite wird GitHub Pages gehostet - Volle Version der homepage auf <a href='https://tobiaslindberg.com/de/' rel='noreferrer' target='_blank'>tobiaslindberg.com</a>"
+#        footercontent = "Diese Seite wird auf GitHub Pages gehostet - Volle Version der homepage auf <a href='https://tobiaslindberg.com/de/' rel='noreferrer' target='_blank'>tobiaslindberg.com</a>"
+        footercontent = "Diese Seite wird auf GitHub Pages gehostet"
 #        [[languages.de.menu.main]]
 #            name = "https://tobiaslindberg.com"
 #            weight = 1
