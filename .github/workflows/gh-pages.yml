@@ -26,10 +26,13 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
+      - name: Set env values for Hugo
+        run: |
+          echo ::set-env name=GIT_COMMIT_SHA::$(echo $GITHUB_SHA)
+          echo ::set-env name=GIT_COMMIT_SHA_SHORT::$(echo $GITHUB_SHA | cut -c 1-7)
+
       - name: Build with Hugo - using --minify --gc --environment githubpages --debug
         run: |
-          export GIT_COMMIT_SHA="$(git rev-parse --verify HEAD)"
-          export GIT_COMMIT_SHA_SHORT="$(git rev-parse --short HEAD)"
           hugo --minify --gc --environment githubpages --debug
 
       - name: Changing git settings - reverting of git url and submodule sync
@@ -47,5 +50,6 @@ jobs:
           publish_branch: master
           disable_nojekyll: true
           allow_empty_commit: true
+          keep_files: false 
           user_name: tobiasehlert
           user_email: tobias.ehlert@gmail.com
