@@ -12,7 +12,7 @@ jobs:
       - name: Checkout action
         uses: actions/checkout@v1
         with:
-          token: ${{ secrets.ACCESS_TOKEN }}
+          fetch-depth: 1
           submodules: true
 
       - name: Setup latest Hugo
@@ -27,7 +27,7 @@ jobs:
       - name: Deploy of content
         uses: peaceiris/actions-gh-pages@v3
         with:
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          deploy_key: ${{ secrets.DEPLOY_KEY_TOBIASEHLERTGITHUBIO }}
           external_repository: tobiasehlert/tobiasehlert.github.io
           publish_dir: /public-tobiasehlert.github.io
           publish_branch: gh-actions-testbranch
