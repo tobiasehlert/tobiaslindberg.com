@@ -10,7 +10,7 @@ contentDir = "content"
 publishdir = "public"
 
 paginate = 20
-canonifyurls = true
+canonifyurls = false
 
 pygmentsstyle = "bw"
 pygmentscodefences = true
@@ -61,7 +61,7 @@ enableGitInfo = true
 
 [params]
     author = "Tobias Lindberg"
-    
+
     keywords = "tobias lindberg,tobias ehlert,ehlert,consultant,senior consultant,developer"
 
     avatarurl = "images/avatar.jpg"
@@ -140,5 +140,3 @@ enableGitInfo = true
     url = "https://m.do.co/c/452a006a298d"
     rel = "noreferrer"
     target = "_blank"
-
-
