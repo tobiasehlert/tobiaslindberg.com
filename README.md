@@ -13,6 +13,11 @@ When building the page with hugo, you have to declare the enviroment you want to
 * [tobiaslindberg.com](https://tobiaslindberg.com) - this is the full page (*environment production*)
 * [tobiasehlert.github.io](https://tobiasehlert.github.io) - this is a minimalist version (*environment githubpages*)
 
+### URL to repos
+
+* [github.com/tobiasehlert/tobiaslindberg.com](https://github.com/tobiasehlert/tobiaslindberg.com) - this repo containing the hugo things, to generate pages
+* [github.com/tobiasehlert/tobiasehlert.github.io](https://github.com/tobiasehlert/tobiasehlert.github.io) - this repo contains the static html files from enviroment githubpages
+
 ## Used
 
 [Hugo](https://gohugo.io) is the framework that is used to generate files.
