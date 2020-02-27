@@ -9,45 +9,42 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout action
+      - name: Checkout of repository
         uses: actions/checkout@v2
-#        with:
-#          fetch-depth: 1
-#          submodules: true
 
-      - name: Checkout submodules
+      - name: Changing git settings - modification of git url and checkout of git submodule
         shell: bash
         run: |
-          # If your submodules are configured to use SSH instead of HTTPS please uncomment the following line
           git config --global url."https://github.com/".insteadOf "git@github.com:"
           auth_header="$(git config --local --get http.https://github.com/.extraheader)"
           git submodule sync --recursive
           git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
 
-      - name: Setup latest Hugo
+      - name: Setup latest version of Hugo extended edition
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
           extended: true
 
-      - name: Build with Hugo
-        run: hugo --minify --gc --environment githubpages --debug
+      - name: Build with Hugo - using --minify --gc --environment githubpages --debug
+        run: |
+          GIT_COMMIT_SHA="$(git rev-parse --verify HEAD)"
+          GIT_COMMIT_SHA_SHORT="$(git rev-parse --short HEAD)"
+          hugo --minify --gc --environment githubpages --debug
 
-      - name: Changing submodules URL again
+      - name: Changing git settings - reverting of git url and submodule sync
         shell: bash
         run: |
-          git config --global --list
           git config --global --unset-all url.https://github.com/.insteadof
-          git config --global --list
           git submodule sync --recursive
 
-      - name: Deploy of content
+      - name: Deploy of content to remote tobiasehlert/tobiasehlert.github.io
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.DEPLOY_KEY_TOBIASEHLERTGITHUBIO }}
           external_repository: tobiasehlert/tobiasehlert.github.io
-          publish_dir: /public-tobiasehlert.github.io
-          publish_branch: gh-actions-testbranch
+          publish_dir: /public
+          publish_branch: master
           disable_nojekyll: true
           allow_empty_commit: true
           user_name: tobiasehlert
