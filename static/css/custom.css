@@ -15,3 +15,7 @@
 .footer .container p {
   margin: 0px;
 }
+
+.content article p {
+  text-align: unset;
+}
