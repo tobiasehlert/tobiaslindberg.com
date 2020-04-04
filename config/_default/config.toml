@@ -79,7 +79,7 @@ enableGitInfo = true
     since = 2019
 
     math = true
-    custom_css = ["css/custom.css"]
+    custom_css = ["css/custom.css", "css/icomoon.css"]
 
     # Git Commit in Footer, uncomment the line below to enable it.
     commit = "https://github.com/tobiasehlert/tobiaslindberg.com/tree/"
@@ -127,7 +127,7 @@ enableGitInfo = true
     target = "_blank"
 [[params.social]]
     name = "Tesla"
-    icon = "fa fa-car fa-2x"
+    icon = "fa im-tesla fa-2x"
     weight = 6
     url = "https://ts.la/tobias85122/"
     rel = "noreferrer"
