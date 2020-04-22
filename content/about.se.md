@@ -11,6 +11,8 @@ Jobbar som seniorkonsult på IP-Solutions AB.
 
 Jag är mycket social och analytisk. Jag kombinerar min djupa kunskap och intresse inom det tekniska området med en utmärkt förmåga att arbeta som arkitekt och med felsökningssystem. Jag är resultatorienterad och drivs av min ambition att leverera hög kvalitet i mina uppdrag.
 
+Automatisering tycker jag är ett mycket intressant område som jag brinner för. Innehar även en AWS Certified Solutions Architect Associate certifiering som jag under våren 2020.
+
 Specialkunskaperna är främst inom VoIP/SIP, men jobbar även med generell design, felsökning och virtualisering.
 
 # Presentation (personlig)

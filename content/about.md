@@ -10,6 +10,8 @@ Working as an Senior Consultant at IP-Solutions AB.
 
 I am is very social and analytical. I combine my deep knowledge and interest in the technology field with an excellent ability to work as an architect and troubleshooting system. I am result oriented and driven by ambition to deliver high quality in my assignments.
 
+Automation is a very interesting area that I am passionate about. I do also hold an AWS Certified Solutions Architect Associate certification, which I tool in spring 2020.
+
 My specialist expertic is mainly in VoIP/SIP, but I have also been working with general design, troubleshooting and virtualization.
 
 # Presentation (personal)
@@ -17,4 +19,3 @@ My specialist expertic is mainly in VoIP/SIP, but I have also been working with 
 Currently I am living in western part of Stockholm with his wife and son. After work I sing in Stockholms Academic Male Choir as second tenor.
 
 During wintertime I like to go skiing the slopes, go ice fishing or take a trip into the mountains with a snowmobile.
-
