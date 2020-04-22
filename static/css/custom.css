@@ -19,3 +19,8 @@
 .content article p {
   text-align: unset;
 }
+
+.content article header {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
