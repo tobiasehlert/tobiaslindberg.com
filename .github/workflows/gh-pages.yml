@@ -56,6 +56,7 @@ jobs:
           publish_branch: master
           disable_nojekyll: true
           allow_empty_commit: true
-          keep_files: false 
+          keep_files: false
+          force_orphan: true
           user_name: tobiasehlert
           user_email: tobias.ehlert@gmail.com
