@@ -11,7 +11,7 @@ Arbeitet als Senior Consultant bei IP-Solutions AB.
 
 Ich bin sehr sozial und analytisch. Ich verbinde mein tiefes Wissen und Interesse im technischen Bereich mit einer ausgezeichneten Fähigkeit, als Architekt zu arbeiten, und mit Fehlersuchsystemen. Ich bin ergebnisorientiert und von meinem Ehrgeiz getrieben, hohe Qualität in meinen Aufgaben zu liefern.
 
-Automatisierung finde ich ist ein sehr interessanter Bereich und habe auch seit dem Frühjahr 2020 eine AWS Certified Solutions Architect Associate-Zertifizierung.
+Automatisierung finde ich ist ein sehr interessanter Bereich und habe auch eine [AWS Certified Solutions Architect – Associate](https://www.youracclaim.com/earner/earned/badge/3da50b76-f399-4a62-b8bc-209f855fa6ad) und [AWS Certified Security – Specialty](https://www.youracclaim.com/badges/4df688ef-4486-412a-8779-7b0e266e0974) Zertifizierung.
 
 Das Fachwissen liegt hauptsächlich in VoIP/SIP, funktioniert aber auch bei allgemeinem Design, Fehlerbehebung und Virtualisierung.
 
