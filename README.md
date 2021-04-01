@@ -20,14 +20,10 @@ When building the page with hugo, you have to declare the enviroment you want to
 
 ## Used
 
-[Hugo](https://gohugo.io) is the framework that is used to generate files.
+* [Hugo](https://gohugo.io) is the framework that is used to generate files.
+* [hugo-coder](https://github.com/luizdepra/hugo-coder) is a Hugo-theme by [Luiz de Prá](https://github.com/luizdepra).
 
-[hugo-coder](https://github.com/luizdepra/hugo-coder) is a Hugo-theme by [Luiz de Prá](https://github.com/luizdepra).
+## Credits
 
-## Maintenance
-
-This repo is maintained by its author [Tobias Lindberg](https://github.com/tobiasehlert).
-
-## License
-
-This repo is licensed under the [MIT license](https://github.com/tobiasehlert/tobiasehlert.github.io/blob/master/LICENSE.md).
+- Authors: Tobias Lindberg – [List of contributors](https://github.com/tobiasehlert/tobiaslindberg.com/graphs/contributors)
+- Distributed under MIT License
