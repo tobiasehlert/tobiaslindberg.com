@@ -26,14 +26,15 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Set env values for Hugo
-        run: |
-          echo ::set-env name=GIT_COMMIT_SHA::$(echo $GITHUB_SHA)
-          echo ::set-env name=GIT_COMMIT_SHA_SHORT::$(echo $GITHUB_SHA | cut -c 1-7)
+      - name: GitHub Environment Variables Action
+        uses: FranzDiebold/github-env-vars-action@v2.1.0
 
       - name: Build with Hugo - using --minify --gc --environment githubpages --debug
         run: |
           hugo --minify --gc --environment githubpages --debug
+        env:
+          GIT_COMMIT_SHA: ${{ github.sha }}
+          GIT_COMMIT_SHA_SHORT: ${{ env.CI_SHA_SHORT }}
 
       - name: Some file adjustments after generation of all files
         run: |

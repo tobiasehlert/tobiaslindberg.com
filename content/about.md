@@ -16,6 +16,6 @@ My specialist expertic is mainly in VoIP/SIP, but I have also been working with 
 
 # Presentation (personal)
 
-Currently I am living in Sandviken, Sweden with his wife and son.
+Currently I am living in Sandviken, Sweden with his wife and two sons.
 
 During wintertime I like to go skiing the slopes, go ice fishing or take a trip into the mountains with a snowmobile.

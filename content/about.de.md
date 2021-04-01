@@ -17,6 +17,6 @@ Das Fachwissen liegt hauptsächlich in VoIP/SIP, funktioniert aber auch bei allg
 
 # Präsentation (persönlich)
 
-Vater eines Kleinkindes, der mit Frau und Sohn in Sandviken, Schweden wohnt.
+Vater zweier Kleinkindern, der mit Frau und Söhnen in Sandviken, Schweden wohnt.
 
 Im Winter fahre ich gerne mit Ski die Pisten runter, gehe angeln oder mache einen Ausflug in die Berge mit dem Schneemobil.
