@@ -64,6 +64,8 @@ enableGitInfo = true
     keywords = "tobias lindberg,tobias ehlert,ehlert,consultant,senior consultant,developer"
 
     avatarurl = "images/avatar.jpg"
+    # gravatar = "tobias.ehlert@gmail.com"
+
     favicon_32 = "/images/favicon-32x32.png"
     favicon_16 = "/images/favicon-16x16.png"
 
@@ -79,7 +81,7 @@ enableGitInfo = true
     since = 2019
 
     math = true
-    custom_css = ["css/custom.css", "css/icomoon.css"]
+    customCSS = ["css/custom.css"]
 
     # Git Commit in Footer, uncomment the line below to enable it.
     commit = "https://github.com/tobiasehlert/tobiaslindberg.com/tree/"
@@ -92,49 +94,42 @@ enableGitInfo = true
 # Social links
 [[params.social]]
     name = "LinkedIn"
-    icon = "fab fa-linkedin fa-4x"
+    icon = "fa fa-linkedin-square"
     weight = 1
     url = "https://www.linkedin.com/in/ehlerttobias/"
     rel = "noreferrer"
     target = "_blank"
 [[params.social]]
     name = "Instagram"
-    icon = "fab fa-instagram fa-2x"
+    icon = "fa fa-instagram"
     weight = 2
     url = "https://instagram.com/ehlerttobias/"
     rel = "noreferrer"
     target = "_blank"
 [[params.social]]
     name = "Facebook"
-    icon = "fab fa-facebook fa-2x"
+    icon = "fa fa-facebook-square"
     weight = 3
     url = "https://facebook.com/tysken"
     rel = "noreferrer"
     target = "_blank"
 [[params.social]]
     name = "Twitter"
-    icon = "fab fa-twitter fa-2x"
+    icon = "fa fa-twitter"
     weight = 4
     url = "https://twitter.com/EhlertTobias/"
     rel = "noreferrer"
     target = "_blank"
 [[params.social]]
     name = "GitHub"
-    icon = "fab fa-github fa-2x"
+    icon = "fa fa-github"
     weight = 5
     url = "https://github.com/tobiasehlert/"
     rel = "noreferrer"
     target = "_blank"
 [[params.social]]
-    name = "Tesla"
-    icon = "fa im-tesla fa-2x"
-    weight = 6
-    url = "https://ts.la/tobias85122/"
-    rel = "noreferrer"
-    target = "_blank"
-[[params.social]]
     name = "DigitalOcean"
-    icon = "fab fa-digital-ocean fa-2x"
+    icon = "fa fa-digitalocean"
     weight = 7
     url = "https://m.do.co/c/452a006a298d"
     rel = "noreferrer"
