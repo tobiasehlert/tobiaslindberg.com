@@ -27,7 +27,7 @@ jobs:
           extended: true
 
       - name: GitHub Environment Variables Action
-        uses: FranzDiebold/github-env-vars-action@v2.1.0
+        uses: FranzDiebold/github-env-vars-action@v2.3.0
 
       - name: Build with Hugo - using --minify --gc --environment githubpages --debug
         run: |
