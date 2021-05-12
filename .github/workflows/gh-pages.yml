@@ -49,7 +49,7 @@ jobs:
           git submodule sync --recursive
 
       - name: Deploy of content to remote tobiasehlert/tobiasehlert.github.io
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v3.8.0
         with:
           deploy_key: ${{ secrets.DEPLOY_KEY_TOBIASEHLERTGITHUBIO }}
           external_repository: tobiasehlert/tobiasehlert.github.io
