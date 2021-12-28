@@ -94,42 +94,42 @@ enableGitInfo = true
 # Social links
 [[params.social]]
     name = "LinkedIn"
-    icon = "fa fa-linkedin-square"
+    icon = "fa fa-2x fa-linkedin-square"
     weight = 1
     url = "https://www.linkedin.com/in/ehlerttobias/"
     rel = "noreferrer"
     target = "_blank"
 [[params.social]]
     name = "Instagram"
-    icon = "fa fa-instagram"
+    icon = "fa fa-2x fa-instagram"
     weight = 2
     url = "https://instagram.com/ehlerttobias/"
     rel = "noreferrer"
     target = "_blank"
 [[params.social]]
     name = "Facebook"
-    icon = "fa fa-facebook-square"
+    icon = "fa fa-2x fa-facebook-square"
     weight = 3
     url = "https://facebook.com/tysken"
     rel = "noreferrer"
     target = "_blank"
 [[params.social]]
     name = "Twitter"
-    icon = "fa fa-twitter"
+    icon = "fa fa-2x fa-twitter"
     weight = 4
     url = "https://twitter.com/EhlertTobias/"
     rel = "noreferrer"
     target = "_blank"
 [[params.social]]
     name = "GitHub"
-    icon = "fa fa-github"
+    icon = "fa fa-2x fa-github"
     weight = 5
     url = "https://github.com/tobiasehlert/"
     rel = "noreferrer"
     target = "_blank"
 [[params.social]]
     name = "DigitalOcean"
-    icon = "fa fa-digitalocean"
+    icon = "fa fa-2x fa-digitalocean"
     weight = 7
     url = "https://m.do.co/c/452a006a298d"
     rel = "noreferrer"
