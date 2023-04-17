@@ -11,7 +11,7 @@ Jobbar som seniorkonsult på [IP-Solutions AB](https://www.ip-solutions.se).
 
 Jag är mycket social och analytisk. Jag kombinerar min djupa kunskap och intresse inom det tekniska området med en utmärkt förmåga att arbeta som arkitekt och med felsökningssystem. Jag är resultatorienterad och drivs av min ambition att leverera hög kvalitet i mina uppdrag.
 
-Automatisering tycker jag är ett mycket intressant område som jag brinner för, som exempelvis Ansible. Innehar även en [AWS Certified Solutions Architect – Associate](https://www.youracclaim.com/earner/earned/badge/3da50b76-f399-4a62-b8bc-209f855fa6ad) och [AWS Certified Security – Specialty](https://www.youracclaim.com/badges/4df688ef-4486-412a-8779-7b0e266e0974) certifiering.
+Automatisering tycker jag är ett mycket intressant område som jag brinner för, som exempelvis Ansible. Innehar även en [AWS Certified Solutions Architect – Professional](https://www.credly.com/badges/22a63f31-37d5-4a10-b229-17beffbcd303) och [AWS Certified Security – Specialty](https://www.credly.com/badges/4df688ef-4486-412a-8779-7b0e266e0974) certifiering.
 
 Specialkunskaperna är främst inom VoIP/SIP, men jobbar även med generell design, felsökning och virtualisering.
 
