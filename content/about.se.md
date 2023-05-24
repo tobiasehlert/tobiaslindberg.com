@@ -17,6 +17,6 @@ Specialkunskaperna är främst inom VoIP/SIP, men jobbar även med generell desi
 
 # Presentation (personlig)
 
-Småbarnspappa som bor i Sandviken med fru och två söner.
+Småbarnspappa som bor i Sandviken med fru och två söner, som sjunger i Sandvikens Manskör som andra tenor på sin fritid.
 
 På vintertid tar jag gärna och susar ner för skidbacken, kör pimpelfiske eller tar en tur på fjället med snöskotern.
