@@ -1,0 +1,26 @@
+baseURL = "https://tobiaslindberg.com/"
+title = "TobiasLindberg.com"
+
+theme = "hugo-coder"
+publishdir = "_site"
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+enableGitInfo = true
+enableRobotsTXT = true
+
+disableKinds = ["taxonomy"]
+paginate = 20
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[permalinks]
+  posts = "/:year/:month/:title/"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"

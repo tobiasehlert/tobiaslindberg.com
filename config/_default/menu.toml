@@ -1,0 +1,8 @@
+#[[main]]
+#  name = "Blog"
+#  weight = 1
+#  url  = "/en/posts/"
+[[main]]
+  name = "About"
+  weight = 2
+  url = "/en/about/"

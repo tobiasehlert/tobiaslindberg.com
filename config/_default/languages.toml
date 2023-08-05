@@ -1,0 +1,20 @@
+[en]
+  languageName = "English"
+  [en.params]
+    description = "Tobias Lindberg's website"
+    info = "Senior Consultant | Developer | Father | Tesla enthusiast | Creator of TibiaData"
+    footercontent = "This page is hosted on GitHub Pages"
+
+[se]
+  languageName = "Svenska"
+  [se.params]
+    description = "Tobias Lindberg's hemsida"
+    info = "Seniorkonsult | Utvecklare | Far | Tesla entusiast | Skapare av TibiaData"
+    footercontent = "Denna sida tillhandahålls på GitHub Pages"
+
+[de]
+  languageName = "Deutsch"
+  [de.params]
+    description = "Tobias Lindberg's webseite"
+    info = "Senior Consultant | Entwickler | Vater | Tesla-Enthusiast | Schöpfer von TibiaData"
+    footercontent = "Diese Seite wird auf GitHub Pages gehostet"

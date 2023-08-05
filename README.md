@@ -1,22 +1,9 @@
 # tobiaslindberg.com
 
-This repo does generate static homepage for my personal homepage.
+[![GitHub Pages deployment](https://github.com/tobiasehlert/tobiaslindberg.com/actions/workflows/github-pages.yml/badge.svg)](https://github.com/tobiasehlert/tobiaslindberg.com/actions/workflows/github-pages.yml)
+[![GitHub license](https://img.shields.io/github/license/tobiasehlert/tobiaslindberg.com)](https://github.com/tobiasehlert/tobiaslindberg.com/blob/main/LICENSE)
 
-## Purpose of repo
-
-There are different environments available and the content of the page does differ, depending on the purpose of course.
-
-When building the page with hugo, you have to declare the enviroment you want to use
-
-### URL to pages
-
-* [tobiaslindberg.com](https://tobiaslindberg.com) - this is the full page (*environment production*)
-* [tobiasehlert.github.io](https://tobiasehlert.github.io) - this is a minimalist version (*environment githubpages*)
-
-### URL to repos
-
-* [github.com/tobiasehlert/tobiaslindberg.com](https://github.com/tobiasehlert/tobiaslindberg.com) - this repo containing the hugo things, to generate pages
-* [github.com/tobiasehlert/tobiasehlert.github.io](https://github.com/tobiasehlert/tobiasehlert.github.io) - this repo contains the static html files from enviroment githubpages
+[Tobias Lindberg](https://github.com/tobiasehlert) github profile site hosted on GitHub Pages.
 
 ## Used
 
