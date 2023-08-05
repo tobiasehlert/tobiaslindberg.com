@@ -3,8 +3,6 @@ keywords = "tobias lindberg,tobias ehlert,ehlert,consultant,senior consultant,de
 
 avatarurl = "images/avatar.jpg"
 # gravatar = "tobias.ehlert@gmail.com"
-favicon_32 = "/images/favicon-32x32.png"
-favicon_16 = "/images/favicon-16x16.png"
 
 dateformat = "2006-01-02 15:04"
 colorscheme = "auto"
