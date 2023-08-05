@@ -1,5 +1,5 @@
 [en]
-  languageName = "English"
+  languageName = ":us:"
   [en.params]
     description = "Tobias Lindberg's website"
     info = "Senior Consultant | Developer | Father | Tesla enthusiast | Creator of TibiaData"
@@ -7,7 +7,7 @@
     images = ["images/open-graph-image-en.png"]
 
 [se]
-  languageName = "Svenska"
+  languageName = ":sweden:"
   [se.params]
     description = "Tobias Lindberg's hemsida"
     info = "Seniorkonsult | Utvecklare | Far | Tesla entusiast | Skapare av TibiaData"
@@ -15,7 +15,7 @@
     images = ["images/open-graph-image-se.png"]
 
 [de]
-  languageName = "Deutsch"
+  languageName = ":de:"
   [de.params]
     description = "Tobias Lindberg's webseite"
     info = "Senior Consultant | Entwickler | Vater | Tesla-Enthusiast | Schöpfer von TibiaData"
