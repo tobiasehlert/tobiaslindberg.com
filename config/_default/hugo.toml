@@ -17,6 +17,9 @@ pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
+[social]
+  twitter = "EhlertTobias"
+
 [permalinks]
   posts = "/:year/:month/:title/"
 
