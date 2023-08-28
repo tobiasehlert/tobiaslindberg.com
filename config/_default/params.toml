@@ -11,7 +11,7 @@ hidecopyright = false
 rtl = false
 since = 2019
 math = true
-customCSS = ["css/custom.css"]
+customCSS = ["css/custom.css", "css/icomoon.css"]
 
 # Social links
 [[social]]
@@ -54,5 +54,12 @@ customCSS = ["css/custom.css"]
     icon = "fa fa-2x fa-digitalocean"
     weight = 7
     url = "https://m.do.co/c/452a006a298d"
+    rel = "noreferrer"
+    target = "_blank"
+[[social]]
+    name = "Tesla"
+    icon = "fa fa-2x icon-tesla"
+    weight = 7
+    url = "https://ts.la/tobias85122"
     rel = "noreferrer"
     target = "_blank"
