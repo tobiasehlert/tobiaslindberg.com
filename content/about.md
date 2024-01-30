@@ -8,11 +8,11 @@ draft: false
 
 Working as an Senior Consultant at [IP-Solutions AB](https://www.ip-solutions.se).
 
-I am is very social and analytical. I combine my deep knowledge and interest in the technology field with an excellent ability to work as an architect and troubleshooting system. I am result oriented and driven by ambition to deliver high quality in my assignments.
+I am is very social and analytical. I combine my deep knowledge and interest in the technology field with an excellent ability to work as an architect and troubleshooting system. I am result oriented and driven by ambition to deliver high quality in my commitments.
 
-Automation is a very interesting area that I am passionate about, such as with Ansible. I do also hold an [AWS Certified Solutions Architect – Professional](https://www.credly.com/badges/22a63f31-37d5-4a10-b229-17beffbcd303) and [AWS Certified Security – Specialty](https://www.credly.com/badges/4df688ef-4486-412a-8779-7b0e266e0974) certification.
+Automation is a very interesting area that I am passionate about about as well as cloud services. I do also hold an [AWS Certified Solutions Architect – Professional](https://www.credly.com/badges/22a63f31-37d5-4a10-b229-17beffbcd303) and [AWS Certified Security – Specialty](https://www.credly.com/badges/4df688ef-4486-412a-8779-7b0e266e0974) certification.
 
-My specialist expertic is mainly in VoIP/SIP, but I have also been working with general design, troubleshooting and virtualization.
+My specialist expertic is mainly in cloud and infrastructure, but I have also been working with general design, VoIP/SIP, troubleshooting and virtualization.
 
 # Presentation (personal)
 
