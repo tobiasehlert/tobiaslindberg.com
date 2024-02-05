@@ -16,42 +16,42 @@ customCSS = ["css/custom.css", "css/icomoon.css"]
 # Social links
 [[social]]
     name = "LinkedIn"
-    icon = "fa fa-2x fa-linkedin-square"
+    icon = "fa-brands fa-2x fa-linkedin"
     weight = 1
     url = "https://www.linkedin.com/in/ehlerttobias/"
     rel = "noreferrer"
     target = "_blank"
 [[social]]
     name = "Instagram"
-    icon = "fa fa-2x fa-instagram"
+    icon = "fa-brands fa-2x fa-instagram"
     weight = 2
     url = "https://instagram.com/ehlerttobias/"
     rel = "noreferrer"
     target = "_blank"
 [[social]]
     name = "Facebook"
-    icon = "fa fa-2x fa-facebook-square"
+    icon = "fa-brands fa-2x fa-facebook-square"
     weight = 3
     url = "https://facebook.com/tysken"
     rel = "noreferrer"
     target = "_blank"
 [[social]]
     name = "Twitter"
-    icon = "fa fa-2x fa-twitter"
+    icon = "fa-brands fa-2x fa-x-twitter"
     weight = 4
     url = "https://twitter.com/EhlertTobias/"
     rel = "noreferrer"
     target = "_blank"
 [[social]]
     name = "GitHub"
-    icon = "fa fa-2x fa-x-github"
+    icon = "fa-brands fa-2x fa-square-github"
     weight = 5
     url = "https://github.com/tobiasehlert/"
     rel = "noreferrer"
     target = "_blank"
 [[social]]
     name = "DigitalOcean"
-    icon = "fa fa-2x fa-digital-ocean"
+    icon = "fa-brands fa-2x fa-digital-ocean"
     weight = 6
     url = "https://m.do.co/c/452a006a298d"
     rel = "noreferrer"
