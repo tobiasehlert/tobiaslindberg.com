@@ -44,15 +44,15 @@ customCSS = ["css/custom.css", "css/icomoon.css"]
     target = "_blank"
 [[social]]
     name = "GitHub"
-    icon = "fa fa-2x fa-github"
+    icon = "fa fa-2x fa-x-github"
     weight = 5
     url = "https://github.com/tobiasehlert/"
     rel = "noreferrer"
     target = "_blank"
 [[social]]
     name = "DigitalOcean"
-    icon = "fa fa-2x fa-digitalocean"
-    weight = 7
+    icon = "fa fa-2x fa-digital-ocean"
+    weight = 6
     url = "https://m.do.co/c/452a006a298d"
     rel = "noreferrer"
     target = "_blank"
