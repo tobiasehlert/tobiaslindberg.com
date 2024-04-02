@@ -31,7 +31,7 @@ jobs:
           submodules: recursive
 
       - name: Setup latest version of Hugo extended edition
-        uses: peaceiris/actions-hugo@v2.6.0
+        uses: peaceiris/actions-hugo@v3.0.0
         with:
           hugo-version: 'latest'
           extended: true
