@@ -11,7 +11,7 @@ enableGitInfo = true
 enableRobotsTXT = true
 
 disableKinds = ["taxonomy"]
-paginate = 20
+pagination.pagerSize = 20
 
 pygmentsstyle = "bw"
 pygmentscodefences = true
