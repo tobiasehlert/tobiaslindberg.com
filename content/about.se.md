@@ -7,7 +7,7 @@ slug: om-mig
 
 # Presentation (yrkesrollen)
 
-Jobbar som seniorkonsult på [IP-Solutions AB](https://www.ip-solutions.se).
+Jobbar som Cloud Infrastructure Engineer på [AB Sandvik Coromant](https://www.sandvik.coromant.com).
 
 Jag är mycket social och analytisk. Jag kombinerar min djupa kunskap och intresse inom det tekniska området med en utmärkt förmåga att arbeta som arkitekt och med felsökningssystem. Jag är resultatorienterad och drivs av min ambition att leverera hög kvalitet i mina åtaganden.
 
@@ -17,6 +17,6 @@ Specialkunskaperna är främst inom cloud och infrastruktur, men jobbar även me
 
 # Presentation (personlig)
 
-Småbarnspappa som bor i Sandviken med fru och två söner, som sjunger i Sandvikens Manskör som andra tenor på sin fritid.
+Småbarnspappa som bor i Sandviken med fru och två söner, som sjunger i Sandvikens Manskör som första tenor på sin fritid.
 
 På vintertid tar jag gärna och susar ner för skidbacken, kör pimpelfiske eller tar en tur på fjället med snöskotern.

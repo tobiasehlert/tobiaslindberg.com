@@ -7,7 +7,7 @@ slug: ueber-mich
 
 # Präsentation (beruflich)
 
-Arbeitet als Senior Consultant bei [IP-Solutions AB](https://www.ip-solutions.se).
+Arbeitet als Cloud Infrastructure Engineer bei [AB Sandvik Coromant](https://www.sandvik.coromant.com).
 
 Ich bin sehr sozial und analytisch. Ich verbinde mein tiefes Wissen und Interesse im technischen Bereich mit einer ausgezeichneten Fähigkeit, als Architekt zu arbeiten, und mit Fehlersuchsystemen. Ich bin ergebnisorientiert und von meinem Ehrgeiz getrieben, hohe Qualität in meinen Engagement zu liefern.
 
@@ -17,6 +17,6 @@ Das Fachwissen liegt hauptsächlich in den Bereichen Cloud und Infrastruktur, ar
 
 # Präsentation (persönlich)
 
-Vater zweier Kleinkindern, der mit Frau und Söhnen in Sandviken, Schweden wohnt und in seiner Freizeit in Sandvikens Manskör als anderer Tenor singt.
+Vater zweier Kleinkindern, der mit Frau und Söhnen in Sandviken, Schweden wohnt und in seiner Freizeit in Sandvikens Manskör als erster Tenor singt.
 
 Im Winter fahre ich gerne mit Ski die Pisten runter, gehe angeln oder mache einen Ausflug in die Berge mit dem Schneemobil.

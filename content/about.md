@@ -6,7 +6,7 @@ draft: false
 
 # Presentation (professional)
 
-Working as an Senior Consultant at [IP-Solutions AB](https://www.ip-solutions.se).
+Working as a Cloud Infrastructure Engineer at [AB Sandvik Coromant](https://www.sandvik.coromant.com).
 
 I am is very social and analytical. I combine my deep knowledge and interest in the technology field with an excellent ability to work as an architect and troubleshooting system. I am result oriented and driven by ambition to deliver high quality in my commitments.
 
@@ -16,6 +16,6 @@ My specialist expertic is mainly in cloud and infrastructure, but I have also be
 
 # Presentation (personal)
 
-Currently I am living in Sandviken, Sweden with my wife and two sons. After work I sing in Sandvikens Male Choir as second tenor.
+Currently I am living in Sandviken, Sweden with my wife and two sons. After work I sing in Sandvikens Male Choir as first tenor.
 
 During wintertime I like to go skiing the slopes, go ice fishing or take a trip into the mountains with a snowmobile.
