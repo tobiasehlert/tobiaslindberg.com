@@ -2,7 +2,7 @@
   languageName = ":us:"
   [en.params]
     description = "Tobias Lindberg's website"
-    info = "Senior Consultant | Developer | Father | Tesla enthusiast | Creator of TibiaData"
+    info = "Cloud Infrastructure Engineer | Father | Tesla enthusiast | Creator of TibiaData"
     footercontent = "This page is hosted on GitHub Pages"
     images = ["images/open-graph-image-en.png"]
 
@@ -10,7 +10,7 @@
   languageName = ":sweden:"
   [se.params]
     description = "Tobias Lindberg's hemsida"
-    info = "Seniorkonsult | Utvecklare | Far | Tesla entusiast | Skapare av TibiaData"
+    info = "Cloud Infrastructure Engineer | Far | Tesla entusiast | Skapare av TibiaData"
     footercontent = "Denna sida tillhandahålls på GitHub Pages"
     images = ["images/open-graph-image-se.png"]
 
@@ -18,6 +18,6 @@
   languageName = ":de:"
   [de.params]
     description = "Tobias Lindberg's webseite"
-    info = "Senior Consultant | Entwickler | Vater | Tesla-Enthusiast | Schöpfer von TibiaData"
+    info = "Cloud Infrastructure Engineer | Vater | Tesla-Enthusiast | Schöpfer von TibiaData"
     footercontent = "Diese Seite wird auf GitHub Pages gehostet"
     images = ["images/open-graph-image-de.png"]

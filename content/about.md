@@ -6,7 +6,7 @@ draft: false
 
 # Presentation (professional)
 
-Working as an Senior Consultant at [IP-Solutions AB](https://www.ip-solutions.se).
+Working as an Cloud Infrastructure Engineer at [AB Sandvik Coromant](https://www.sandvik.coromant.com).
 
 I am is very social and analytical. I combine my deep knowledge and interest in the technology field with an excellent ability to work as an architect and troubleshooting system. I am result oriented and driven by ambition to deliver high quality in my commitments.
 

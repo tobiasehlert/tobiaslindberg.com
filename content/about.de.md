@@ -7,7 +7,7 @@ slug: ueber-mich
 
 # Präsentation (beruflich)
 
-Arbeitet als Senior Consultant bei [IP-Solutions AB](https://www.ip-solutions.se).
+Arbeitet als Cloud Infrastructure Engineer bei [AB Sandvik Coromant](https://www.sandvik.coromant.com).
 
 Ich bin sehr sozial und analytisch. Ich verbinde mein tiefes Wissen und Interesse im technischen Bereich mit einer ausgezeichneten Fähigkeit, als Architekt zu arbeiten, und mit Fehlersuchsystemen. Ich bin ergebnisorientiert und von meinem Ehrgeiz getrieben, hohe Qualität in meinen Engagement zu liefern.
 
