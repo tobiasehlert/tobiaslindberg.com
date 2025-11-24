@@ -17,6 +17,6 @@ Das Fachwissen liegt hauptsächlich in den Bereichen Cloud und Infrastruktur, ar
 
 # Präsentation (persönlich)
 
-Vater zweier Kleinkindern, der mit Frau und Söhnen in Sandviken, Schweden wohnt und in seiner Freizeit in Sandvikens Manskör als anderer Tenor singt.
+Vater zweier Kleinkindern, der mit Frau und Söhnen in Sandviken, Schweden wohnt und in seiner Freizeit in Sandvikens Manskör als erster Tenor singt.
 
 Im Winter fahre ich gerne mit Ski die Pisten runter, gehe angeln oder mache einen Ausflug in die Berge mit dem Schneemobil.
